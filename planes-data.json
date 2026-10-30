@@ -1,0 +1,543 @@
+{
+  "slides": [
+    {
+      "title": "Projection of planes",
+      "lines": [
+        "Experiment 09",
+        "CAEG Lab · Semester I 2026–27",
+        "Himanshu Giria · PIET, Jaipur"
+      ],
+      "diagram": null
+    },
+    {
+      "title": "A plane is a flat surface",
+      "lines": [
+        "Imagine a thin card. It has length and breadth. We neglect its thickness.",
+        "A square has four corners. Project each corner, then join corresponding views in order.",
+        "Today: true shape, edge view and the manual’s worked constructions."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "The point rules still apply",
+      "lines": [
+        "Front view uses height above HP. Top view uses distance in front of VP.",
+        "a and a′ lie on the same projector perpendicular to XY.",
+        "Use a′b′c′d′ for the front view and abcd for the top view."
+      ],
+      "diagram": "sq0"
+    },
+    {
+      "title": "True shape and edge view",
+      "lines": [
+        "Look straight at a card: you see its true shape.",
+        "Look exactly along its surface: it appears as a line, called an edge view.",
+        "An inclined view usually appears shortened or distorted."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Five basic positions",
+      "lines": [
+        "Parallel to HP: true shape in TV, horizontal line in FV.",
+        "Parallel to VP: true shape in FV, horizontal line in TV.",
+        "Inclined to one plane and perpendicular to the other: an area view and an edge view.",
+        "Perpendicular to both: two vertical edge views."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Surface parallel to HP",
+      "lines": [
+        "All corners have the same height.",
+        "TV shows the true shape. FV becomes a horizontal line.",
+        "Turning the card within its own plane changes the outline orientation, not its inclination to HP."
+      ],
+      "diagram": "sq0"
+    },
+    {
+      "title": "Surface parallel to VP",
+      "lines": [
+        "All corners have the same distance from VP.",
+        "FV shows the true shape. TV becomes a horizontal line.",
+        "Teaching example: a 40 mm square, 20 mm in front of VP."
+      ],
+      "diagram": "vp"
+    },
+    {
+      "title": "Inclined to HP, perpendicular to VP",
+      "lines": [
+        "FV is an edge view. Its angle to XY is the surface inclination to HP.",
+        "TV shows a shortened outline.",
+        "Teaching example: 40 mm square tilted 30° to HP about a side on HP."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "Inclined to VP, perpendicular to HP",
+      "lines": [
+        "TV is an edge view. Its angle to XY is the surface inclination to VP.",
+        "FV shows a shortened outline.",
+        "Teaching example: 40 mm square at 30° to VP, with one side in VP."
+      ],
+      "diagram": "tiltvp"
+    },
+    {
+      "title": "Perpendicular to both HP and VP",
+      "lines": [
+        "The surface is parallel to the profile plane.",
+        "FV and TV are both straight lines perpendicular to XY.",
+        "A side view would show the true shape."
+      ],
+      "diagram": "profile"
+    },
+    {
+      "title": "The manual’s 40 mm square",
+      "lines": [
+        "Surface parallel to HP and 20 mm above it. Draw projections for:",
+        "(a) A side parallel to VP.\n(b) A side at 30° to VP.\n(c) All sides equally inclined to VP.",
+        "The distance from VP is unspecified. Choose a convenient gap for the TV."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Square (a), step 1: true-shape TV",
+      "lines": [
+        "Draw XY. Leave space below it.",
+        "Draw a square abcd of side 40 mm with ad parallel to XY.",
+        "A side parallel to VP is parallel to XY in this true-shape top view."
+      ],
+      "diagram": "sq0",
+      "stage": "tv"
+    },
+    {
+      "title": "Square (a), step 2: the height line",
+      "lines": [
+        "Project every corner upward, perpendicular to XY.",
+        "Draw a line parallel to XY, 20 mm above it.",
+        "The intersections give a′, b′, c′ and d′. Darken their common edge view."
+      ],
+      "diagram": "sq0"
+    },
+    {
+      "title": "Square (b): the side turns 30°",
+      "lines": [
+        "Draw the same 40 mm square in TV with ad at 30° to XY.",
+        "Project all four corners to the 20 mm height line.",
+        "FV stays horizontal. The surface remains parallel to HP."
+      ],
+      "diagram": "sq30"
+    },
+    {
+      "title": "Square (c): equally inclined sides",
+      "lines": [
+        "Draw the true-shape square with its sides at 45° to XY.",
+        "Project all corners to the same 20 mm height line.",
+        "Opposite corners b′ and d′ coincide at the centre of the FV."
+      ],
+      "diagram": "sq45"
+    },
+    {
+      "title": "A side angle and a surface angle",
+      "lines": [
+        "In the manual’s square (b), a side is 30° to VP.",
+        "The surface is still parallel to HP. Its inclination to HP is 0°.",
+        "A tilted side in a true-shape view does not by itself mean the surface has tilted."
+      ],
+      "diagram": "sq30"
+    },
+    {
+      "title": "Inclined square: the construction",
+      "lines": [
+        "Extra teaching example: a 40 mm square, one side on HP, surface 30° to HP and perpendicular to VP.",
+        "First draw its true-shape TV with the resting side perpendicular to XY.",
+        "Its initial FV lies on XY. Turn that edge view through 30°, keeping the resting side on XY."
+      ],
+      "diagram": "flattilt"
+    },
+    {
+      "title": "Inclined square: the new top view",
+      "lines": [
+        "Draw projectors down from the inclined FV.",
+        "Transfer each corner’s original distance from VP using horizontal loci from the initial TV.",
+        "Join matching corners. The new TV is 34.64 mm wide and 40 mm deep."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "The manual’s pentagon extension",
+      "lines": [
+        "Regular pentagon, side 30 mm. One side rests on HP.",
+        "The opposite vertex is 30 mm above HP. The resting side is 30° to VP.",
+        "First tilt the surface. Then turn the resulting TV to orient the resting side."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Pentagon, step 1: the initial true shape",
+      "lines": [
+        "Draw a regular pentagon of side 30 mm in TV. Keep ab perpendicular to XY.",
+        "Label a, b, c, d, e in order. d is opposite side ab.",
+        "Project its initial FV onto XY, since the temporary plane lies in HP."
+      ],
+      "diagram": "pentflat"
+    },
+    {
+      "title": "Pentagon, step 2: the 30 mm height",
+      "lines": [
+        "In a new FV, keep a′ and b′ together on XY. Draw a horizontal locus 30 mm above XY.",
+        "With centre a′b′ and radius equal to the initial FV span, cut that locus at d′.",
+        "Join a′b′ to d′. Transfer c′ and e′ along this line using their original distances from a′b′."
+      ],
+      "diagram": "penttilt",
+      "stage": "fv",
+      "heightLocus": true
+    },
+    {
+      "title": "Pentagon, step 3: the tilted TV",
+      "lines": [
+        "Project down from each point of the inclined FV.",
+        "From the initial TV, carry each corner’s depth horizontally to its new projector.",
+        "Join abcde. This shortened pentagon is the intermediate TV."
+      ],
+      "diagram": "penttilt"
+    },
+    {
+      "title": "Pentagon, step 4: the resting side angle",
+      "lines": [
+        "Copy or rotate the entire intermediate TV until ab makes 30° with XY.",
+        "Keep every side and diagonal of this intermediate TV unchanged.",
+        "ab lies in HP, so its top view shows its true angle to VP."
+      ],
+      "diagram": "pentfinal",
+      "stage": "tv"
+    },
+    {
+      "title": "Pentagon, step 5: the final FV",
+      "lines": [
+        "Project upward from the final TV.",
+        "For each named corner, transfer its height from the tilted FV with a horizontal locus.",
+        "Join a′b′c′d′e′a′. a′ and b′ lie on XY. d′ remains 30 mm above XY."
+      ],
+      "diagram": "pentfinal"
+    },
+    {
+      "title": "Pentagon: construction checks",
+      "lines": [
+        "Initial span from side ab to d = 46.17 mm. Use the measured span in the compass.",
+        "Surface tilt to HP ≈ 40.53°. Final resting side ab is 30° to XY in TV.",
+        "Final FV is an area view. After the last turn, the surface is inclined to both reference planes."
+      ],
+      "diagram": "pentfinal"
+    },
+    {
+      "title": "Traces of a plane",
+      "lines": [
+        "Extend the surface when necessary. Its intersection with HP is the horizontal trace, HT.",
+        "Its intersection with VP is the vertical trace, VT.",
+        "A plane trace is a line. A line trace, studied in Experiment 8, is a point.",
+        "A plane parallel to and separate from HP has no finite HT."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Practice before checking",
+      "lines": [
+        "1. A 30 mm square is parallel to HP, 15 mm above it, with one side parallel to VP. Draw both views.",
+        "2. Repeat with all sides equally inclined to VP.",
+        "3. A 40 mm square rests on HP on a side perpendicular to VP. Its surface is 60° to HP. Draw its views."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Practice answers",
+      "lines": [
+        "1. TV is a 30 mm square. FV is a 30 mm horizontal line, 15 mm above XY.",
+        "2. TV sides are 45° to XY. FV span is 42.43 mm, still 15 mm above XY.",
+        "3. FV is a 40 mm edge view at 60°. TV is 20 mm by 40 mm. Highest corners are 34.64 mm above HP."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Quick viva",
+      "lines": [
+        "When does TV show true shape? When the surface is parallel to HP.",
+        "When does FV become an edge view? When the surface is perpendicular to VP.",
+        "Can both views be edge views? Yes, for a surface perpendicular to both HP and VP.",
+        "Does a 30° side angle always mean a 30° surface angle? No."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Your drawing record",
+      "lines": [
+        "Write the aim and given data. Add the weekly title block.",
+        "Keep projectors and transfer loci thin. Darken only the completed views.",
+        "Label every corner, including coincident points. Add the specified dimensions and angles.",
+        "Sources: official syllabus Chapter IX and Lab Manual Experiment 9, pp. 63–69. Additional teaching examples are labelled."
+      ],
+      "diagram": null
+    }
+  ],
+  "diagrams": {
+    "sq0": [
+      [
+        0.0,
+        20.0,
+        20
+      ],
+      [
+        0.0,
+        60.0,
+        20
+      ],
+      [
+        40.0,
+        60.0,
+        20
+      ],
+      [
+        40.0,
+        20.0,
+        20
+      ]
+    ],
+    "sq30": [
+      [
+        0.0,
+        40.0,
+        20
+      ],
+      [
+        19.999999999999996,
+        74.64101615137754,
+        20
+      ],
+      [
+        54.64101615137754,
+        54.64101615137755,
+        20
+      ],
+      [
+        34.64101615137755,
+        20.0,
+        20
+      ]
+    ],
+    "sq45": [
+      [
+        0.0,
+        48.2842712474619,
+        20
+      ],
+      [
+        28.2842712474619,
+        76.5685424949238,
+        20
+      ],
+      [
+        56.568542494923804,
+        48.2842712474619,
+        20
+      ],
+      [
+        28.284271247461902,
+        20.0,
+        20
+      ]
+    ],
+    "vp": [
+      [
+        0,
+        20,
+        20
+      ],
+      [
+        40,
+        20,
+        20
+      ],
+      [
+        40,
+        20,
+        60
+      ],
+      [
+        0,
+        20,
+        60
+      ]
+    ],
+    "flattilt": [
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        60,
+        0
+      ],
+      [
+        40,
+        60,
+        0
+      ],
+      [
+        40,
+        20,
+        0
+      ]
+    ],
+    "tilt": [
+      [
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        60,
+        0
+      ],
+      [
+        34.64101615137755,
+        60,
+        20
+      ],
+      [
+        34.64101615137755,
+        20,
+        20
+      ]
+    ],
+    "tiltvp": [
+      [
+        0,
+        0,
+        20
+      ],
+      [
+        34.64101615137755,
+        20,
+        20
+      ],
+      [
+        34.64101615137755,
+        20,
+        60
+      ],
+      [
+        0,
+        0,
+        60
+      ]
+    ],
+    "profile": [
+      [
+        0,
+        20,
+        20
+      ],
+      [
+        0,
+        60,
+        20
+      ],
+      [
+        0,
+        60,
+        60
+      ],
+      [
+        0,
+        20,
+        60
+      ]
+    ],
+    "pentflat": [
+      [
+        0.0,
+        50.0,
+        0.0
+      ],
+      [
+        0.0,
+        80.0,
+        0.0
+      ],
+      [
+        28.531695488854606,
+        89.27050983124842,
+        0.0
+      ],
+      [
+        46.1652530576288,
+        65.0,
+        0.0
+      ],
+      [
+        28.531695488854606,
+        40.72949016875158,
+        0.0
+      ]
+    ],
+    "penttilt": [
+      [
+        0.0,
+        50.0,
+        0.0
+      ],
+      [
+        0.0,
+        80.0,
+        0.0
+      ],
+      [
+        21.686130068401596,
+        89.27050983124842,
+        18.541019662496844
+      ],
+      [
+        35.08889553512487,
+        65.0,
+        29.999999999999996
+      ],
+      [
+        21.686130068401596,
+        40.72949016875158,
+        18.541019662496844
+      ]
+    ],
+    "pentfinal": [
+      [
+        -12.990381056766578,
+        57.5,
+        0.0
+      ],
+      [
+        12.990381056766578,
+        72.5,
+        0.0
+      ],
+      [
+        31.8619431108619,
+        58.35451536661487,
+        18.541019662496844
+      ],
+      [
+        17.54444776756244,
+        34.6121250758435,
+        29.999999999999996
+      ],
+      [
+        -10.1758130424603,
+        34.08400553536644,
+        18.541019662496844
+      ]
+    ]
+  },
+  "pentagonSpan": 46.1652530576288,
+  "pentagonTilt": 40.52949384855167
+}

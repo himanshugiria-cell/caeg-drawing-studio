@@ -1,0 +1,475 @@
+{
+  "slides": [
+    {
+      "title": "Planes inclined to both reference planes",
+      "lines": [
+        "Experiment 10 · CAEG · Semester I 2026–27",
+        "Himanshu Giria · PIET, Jaipur"
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Today’s lesson",
+      "lines": [
+        "Construct the manual’s inclined rectangle in stages.",
+        "Recover true shape and understand perpendicular distance and the angle between planes.",
+        "Complete one AutoCAD drawing and one sketchbook assignment, as specified in the syllabus."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "A suggested two-hour class",
+      "lines": [
+        "0–15 min: revision and a card demonstration.",
+        "15–55 min: manual rectangle, with students drawing each stage.",
+        "55–80 min: true shape, distance and plane angle.",
+        "80–110 min: AutoCAD. Last 10 min: checks and viva."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "The rules from Experiment 9",
+      "lines": [
+        "FV uses height above HP. TV uses depth in front of VP.",
+        "Matching views share a projector perpendicular to XY.",
+        "A surface parallel to a viewing plane shows true shape. A perpendicular surface shows an edge view."
+      ],
+      "diagram": "flat"
+    },
+    {
+      "title": "A card you can tilt and turn",
+      "lines": [
+        "Place a rectangular card flat on the desk. Raise it about a short edge.",
+        "Keep that edge on the desk and turn the card horizontally.",
+        "The tilt to the desk stays the same. Its orientation to the wall changes."
+      ],
+      "diagram": "final"
+    },
+    {
+      "title": "The manual rectangle",
+      "lines": [
+        "Rectangle ABCD has AB = 30 mm and AD = 50 mm.",
+        "Short side AB rests on HP and makes 30° with VP.",
+        "The surface makes 45° with HP. Draw its FV and TV."
+      ],
+      "diagram": "final"
+    },
+    {
+      "title": "The two angles describe different things",
+      "lines": [
+        "45° is the inclination of the entire surface to HP.",
+        "30° is the inclination of resting side AB to VP.",
+        "AB lies in HP, so its TV shows its true length and true angle to VP."
+      ],
+      "diagram": "final",
+      "angle": true
+    },
+    {
+      "title": "Three positions on the sheet",
+      "lines": [
+        "Position I: surface temporarily in HP. Draw true-shape TV.",
+        "Position II: tilt the FV edge view to 45°. Obtain the shortened TV.",
+        "Position III: turn that TV until ab is 30° to XY. Transfer heights to obtain final FV."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Step 1: the true-shape top view",
+      "lines": [
+        "Draw XY and leave a convenient gap below it.",
+        "Draw abcd, 50 mm horizontally and 30 mm vertically. Label in order.",
+        "Keep the resting short side ab perpendicular to XY."
+      ],
+      "diagram": "flat",
+      "stage": "tv"
+    },
+    {
+      "title": "Step 2: the initial front view",
+      "lines": [
+        "Project each corner up to XY.",
+        "a′ and b′ coincide. c′ and d′ coincide.",
+        "The FV is a 50 mm line on XY because the temporary surface lies in HP."
+      ],
+      "diagram": "flat"
+    },
+    {
+      "title": "Step 3: the 45° edge view",
+      "lines": [
+        "In the second position, keep a′b′ on XY.",
+        "Draw a 50 mm line at 45° to XY. Its far end is c′d′.",
+        "Use the 50 mm span, not the 30 mm resting side."
+      ],
+      "diagram": "tilt",
+      "stage": "fv",
+      "angle": true
+    },
+    {
+      "title": "Step 4: the shortened top view",
+      "lines": [
+        "Project down from the tilted FV.",
+        "Carry the original depth of each named corner horizontally from Position I.",
+        "The intermediate TV is 35.36 mm by 30 mm. Join abcd."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "Why the 50 mm side becomes shorter",
+      "lines": [
+        "In the tilted FV, the 50 mm span is true length.",
+        "Its horizontal component is 50 cos 45° = 35.36 mm.",
+        "The raised side is 50 sin 45° = 35.36 mm above HP."
+      ],
+      "diagram": "tilt",
+      "angle": true
+    },
+    {
+      "title": "Step 5: the resting side at 30°",
+      "lines": [
+        "Copy the whole intermediate TV to Position III.",
+        "Turn it until ab makes 30° with XY. Keep the copied shape unchanged.",
+        "Do not draw a new 30 × 50 mm rectangle in the final TV."
+      ],
+      "diagram": "final",
+      "stage": "tv",
+      "angle": true
+    },
+    {
+      "title": "Step 6: the final front-view projectors",
+      "lines": [
+        "Draw projectors upward from final a, b, c and d.",
+        "Draw the height loci from the tilted FV: 0 mm and 35.36 mm above XY.",
+        "Every final corner must meet its own height locus."
+      ],
+      "diagram": "final",
+      "stage": "loci"
+    },
+    {
+      "title": "Step 7: the final front view",
+      "lines": [
+        "a′ and b′ lie on XY because AB rests on HP.",
+        "c′ and d′ lie 35.36 mm above XY.",
+        "Join a′b′c′d′a′. Both final views now enclose an area."
+      ],
+      "diagram": "final"
+    },
+    {
+      "title": "Step 8: labels and checks",
+      "lines": [
+        "Final TV: ab = 30 mm, ad = 35.36 mm, angle of ab to XY = 30°.",
+        "Final FV: resting edge on XY, raised edge 35.36 mm above XY.",
+        "Dimension the 45° angle in the intermediate edge view. Keep construction lines thin."
+      ],
+      "diagram": "final",
+      "angle": true
+    },
+    {
+      "title": "The final FV angle can mislead",
+      "lines": [
+        "The surface remains 45° to HP after turning.",
+        "The final FV is an area view, so a sloping outline there does not directly give the true surface tilt.",
+        "Use the intermediate edge view to show the given 45°."
+      ],
+      "diagram": "final"
+    },
+    {
+      "title": "Common construction errors",
+      "lines": [
+        "Tilting a 30 mm line instead of the 50 mm span.",
+        "Rotating the original true rectangle instead of the shortened TV.",
+        "Transferring depths when the final FV needs heights.",
+        "Treating the given 30° side angle as the plane’s inclination to VP."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "True shape through an auxiliary view",
+      "lines": [
+        "A view taken perpendicular to the surface reveals its true shape.",
+        "Start from a view where the surface appears as a line.",
+        "For our rectangle, use the intermediate 45° FV edge view."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "True shape, step 1: a new reference",
+      "lines": [
+        "Draw auxiliary reference X₁Y₁ parallel to the 45° edge view.",
+        "Draw auxiliary projectors perpendicular to X₁Y₁ from its endpoint views.",
+        "Keep all points on the chosen side of X₁Y₁."
+      ],
+      "diagram": "aux",
+      "auxStage": 1
+    },
+    {
+      "title": "True shape, step 2: transfer depths",
+      "lines": [
+        "From the intermediate TV, measure each point’s perpendicular distance from XY.",
+        "Transfer these depths from X₁Y₁ on the corresponding auxiliary projectors.",
+        "In our chosen layout, A and D have depth 20 mm; B and C have depth 50 mm."
+      ],
+      "diagram": "aux",
+      "auxStage": 2
+    },
+    {
+      "title": "True shape, step 3: the rectangle",
+      "lines": [
+        "Join the auxiliary points A₁B₁C₁D₁.",
+        "Check AB = 30 mm, AD = 50 mm and all corners = 90°.",
+        "The auxiliary view recovers the true shape, independent of the page orientation."
+      ],
+      "diagram": "aux",
+      "auxStage": 3
+    },
+    {
+      "title": "Starting from two apparent views",
+      "lines": [
+        "If neither view is an edge view, use two auxiliary stages.",
+        "First obtain an edge view. A horizontal line lying in the plane helps choose its viewing direction.",
+        "Then use an auxiliary plane parallel to the surface to obtain true shape.",
+        "The rectangle already supplies the needed edge view in Position II."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Distance of a point from a plane",
+      "lines": [
+        "The distance means the shortest distance, measured along a perpendicular to the plane.",
+        "It is not generally the vertical separation in FV.",
+        "An auxiliary view showing the plane edge-on and the perpendicular in true length makes it measurable."
+      ],
+      "diagram": "distance"
+    },
+    {
+      "title": "Distance: a solved teaching example",
+      "lines": [
+        "Plane is perpendicular to VP and has edge view z = x. Point P has x = 20 mm and height z = 50 mm.",
+        "Draw P′ = (20, 50). Drop a perpendicular from P′ to the 45° edge line.",
+        "Foot N′ = (35, 35). True distance P′N′ = 21.21 mm."
+      ],
+      "diagram": "distance"
+    },
+    {
+      "title": "Distance: the construction method",
+      "lines": [
+        "1. Obtain a suitable edge view of the plane and the matching auxiliary view of P.",
+        "2. Draw the perpendicular from P to the edge line. Name its foot N.",
+        "3. Measure PN there. Transfer N back through projectors if its principal views are required.",
+        "Our teaching example uses FV directly because the plane is perpendicular to VP."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Angle between two planes",
+      "lines": [
+        "The dihedral angle is measured in a cross-section perpendicular to their line of intersection.",
+        "In that view, both planes appear as edge lines.",
+        "An arbitrary angle between their outlines in FV or TV can give the wrong answer."
+      ],
+      "diagram": "angle"
+    },
+    {
+      "title": "Plane angle: a solved teaching example",
+      "lines": [
+        "Two planes are perpendicular to VP and meet along a line perpendicular to VP.",
+        "Their FV edge lines make 20° and 65° with XY.",
+        "The smaller angle between the planes is 65° − 20° = 45°. The supplementary angle is 135°."
+      ],
+      "diagram": "angle"
+    },
+    {
+      "title": "Plane angle: the general method",
+      "lines": [
+        "Locate the line where the planes intersect.",
+        "Choose an auxiliary viewing direction along that line, making it appear as a point.",
+        "Both planes then appear edge-on. Measure the required angle between their edge lines.",
+        "Use an intermediate auxiliary view if needed to reach this viewing direction."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "AutoCAD: preparation",
+      "lines": [
+        "Use a 2D drawing in millimetres, World UCS and a top plan view.",
+        "Create separate layers for outline, construction and dimensions.",
+        "Use endpoint and intersection object snaps. Turn Dynamic Input off for the coordinate exercise.",
+        "The following entries use XY as y = 0 and default counterclockwise angles."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "AutoCAD 1: initial rectangle",
+      "lines": [
+        "RECTANG: first corner 20,-20; opposite corner 70,-50.",
+        "Names: a(20,-20), b(20,-50), c(70,-50), d(70,-20).",
+        "Draw XY with LINE from 0,0 to 300,0. Project x = 20 and x = 70 up to XY."
+      ],
+      "diagram": "flat"
+    },
+    {
+      "title": "AutoCAD 2: tilted front view",
+      "lines": [
+        "LINE: start 110,0; next point @50<45; Enter to end.",
+        "This locates c′d′ at about 145.355,35.355.",
+        "Project down and use the y = -20 and y = -50 depth lines from the initial TV."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "AutoCAD 3: intermediate top view",
+      "lines": [
+        "Join a(110,-20), b(110,-50), c(145.355,-50), d(145.355,-20).",
+        "Use snapped intersections for full precision instead of rounding typed coordinates.",
+        "COPY the four TV sides with base point a to a new a at 220,-20."
+      ],
+      "diagram": "tilt"
+    },
+    {
+      "title": "AutoCAD 4: the 30° side angle",
+      "lines": [
+        "ROTATE the copied TV about its new a.",
+        "The directed side a to b initially points at 270°. Apply a rotation of -60°.",
+        "It now points at 210°, so the undirected resting side makes 30° with XY."
+      ],
+      "diagram": "final",
+      "stage": "tv",
+      "angle": true
+    },
+    {
+      "title": "AutoCAD 5: the completed FV",
+      "lines": [
+        "Project upward from the final TV vertices.",
+        "Intersect a and b projectors with y = 0; c and d projectors with y = 35.355.",
+        "Join the final FV. Add labels, DIMALIGNED lengths and DIMANGULAR angles."
+      ],
+      "diagram": "final"
+    },
+    {
+      "title": "AutoCAD coordinate check",
+      "lines": [
+        "Final TV: a(220,-20); b(194.019,-35).",
+        "c(211.697,-65.619); d(237.678,-50.619).",
+        "Final FV uses the same x values: a′, b′ at y = 0 and c′, d′ at y = 35.355.",
+        "These rounded values check your construction. Object snaps retain the exact geometry."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Sketchbook practice",
+      "lines": [
+        "Teaching assignment: a 30 × 50 mm rectangle rests on its short side on HP.",
+        "Surface inclination = 30° to HP. Resting side = 45° to VP.",
+        "Draw all three positions, both final views and the true shape. Use your weekly title block.",
+        "No submission deadline or marking scheme is set here."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Practice checks",
+      "lines": [
+        "Intermediate TV = 43.30 × 30 mm. Raised edge height = 25 mm.",
+        "Final TV resting side makes 45° with XY. Final FV resting points remain on XY.",
+        "The true shape remains 30 × 50 mm.",
+        "Extra: for P′(20,50) and plane edge z = x, confirm 21.21 mm."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Viva and quick answers",
+      "lines": [
+        "Why is ab drawn perpendicular to XY initially? To obtain the needed edge view for tilting.",
+        "Which length is tilted? The 50 mm span perpendicular to the resting side.",
+        "What stays fixed in the final turn? The vertex heights and the intermediate TV shape.",
+        "When is a plane’s true shape visible? When the viewing plane is parallel to its surface."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Your completed lab record",
+      "lines": [
+        "Aim, given data, instruments or AutoCAD commands, and the stepwise construction.",
+        "Three positions with XY, point labels, light projectors and the specified dimensions.",
+        "Result: final projections satisfy the surface and resting-side conditions.",
+        "Include the AutoCAD drawing and sketchbook assignment specified in Chapter X."
+      ],
+      "diagram": null
+    },
+    {
+      "title": "Sources and teaching extensions",
+      "lines": [
+        "Official CAEG syllabus, Chapter X; Lab Manual 2026–27, Experiment 10, pp. 70–71.",
+        "The rectangle dimensions and angles come from the manual.",
+        "Auxiliary-view explanations, distance and angle examples, coordinate checks and practice are supplementary teaching material.",
+        "AutoCAD command references: Autodesk Help, ROTATE and 2D polar coordinates."
+      ],
+      "diagram": null
+    }
+  ],
+  "diagrams": {
+    "flat": [
+      [
+        0.0,
+        20.0,
+        0.0
+      ],
+      [
+        0.0,
+        50.0,
+        0.0
+      ],
+      [
+        50.0,
+        50.0,
+        0.0
+      ],
+      [
+        50.0,
+        20.0,
+        0.0
+      ]
+    ],
+    "tilt": [
+      [
+        0.0,
+        20.0,
+        0.0
+      ],
+      [
+        0.0,
+        50.0,
+        0.0
+      ],
+      [
+        35.35533905932738,
+        50.0,
+        35.35533905932737
+      ],
+      [
+        35.35533905932738,
+        20.0,
+        35.35533905932737
+      ]
+    ],
+    "final": [
+      [
+        0.0,
+        20.0,
+        0.0
+      ],
+      [
+        -25.980762113533157,
+        35.0,
+        0.0
+      ],
+      [
+        -8.303092583869464,
+        65.61862178478972,
+        35.35533905932737
+      ],
+      [
+        17.677669529663692,
+        50.618621784789724,
+        35.35533905932737
+      ]
+    ]
+  }
+}
